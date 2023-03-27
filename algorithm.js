@@ -60,7 +60,7 @@ function printString_alter(str1, str2, length) {
   }
 }
 
-
+// printString_alter("Mottamurugan", "Kolupan", 5);
 
 function takeAndCenter(n) {
   let length = Math.round(n / 2);

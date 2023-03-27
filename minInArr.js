@@ -13,4 +13,6 @@ const minInArr = (arr) => {
   return min;
 };
 
-console.log(minInArr([-1, -12, -21312, -123543, -345636, -1423325]));
+// console.log(minInArr([-1, -12, -21312, -123543, -345636, -1423325]));
+
+exports.minInArr = minInArr;

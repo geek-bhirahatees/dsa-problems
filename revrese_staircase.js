@@ -31,4 +31,22 @@ function reverseStaircase(n) {
   }
 }
 
-reverseStaircase(6);
+// reverseStaircase(6);
+
+// Write your code here
+function HashreverseStaircase(n) {
+  let result = "";
+  for (let i = n; i >= 1; i--) {
+    let str = "";
+    for (let j = 1; j <= n; j++) {
+      if (j >= i) {
+        str += "#";
+      } else {
+        str += " ";
+      }
+    }
+    console.log(str);
+  }
+}
+
+console.log(HashreverseStaircase(5));
